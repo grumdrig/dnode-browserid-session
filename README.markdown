@@ -14,6 +14,16 @@ Framework implementation of user sign-in using:
 - [dnode](https://github.com/substack/dnode#readme) for RPC
 
 - [Redis](http://redis.io/) for server side session persistence (and
-  other torage)
+  other storage)
 
 Fork me and thrive!
+
+To test
+-------
+
+    $ npm install
+    $ node_modules/nedis/bin/nedis-server &
+    $ node server.js
+
+Then navigate to `http://localhost:9095` to run the sample web
+application.
